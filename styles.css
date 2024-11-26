@@ -1,0 +1,66 @@
+:root {
+}
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card {
+  width: 400px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 7px 8px 0px hsl(0, 0%, 7%);
+}
+.card-body {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+.card-top {
+  height: 190px;
+  background-image: url(./assets/images/illustration-article.svg);
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card-header h2 {
+  font-weight: 800;
+}
+.card-header a {
+  color: black;
+  text-decoration: none;
+}
+.card-header a:hover {
+  color: hsl(47, 88%, 63%);
+}
+.card-content p {
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 20px;
+}
+.tag {
+  background-color: hsl(47, 88%, 63%);
+  padding: 8px 8px;
+  width: fit-content;
+  color: black;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.card-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card-footer img {
+  border-radius: 50%;
+  height: 40px;
+}
+.card-footer h3 {
+  font-weight: 700;
+  font-size: medium;
+}
